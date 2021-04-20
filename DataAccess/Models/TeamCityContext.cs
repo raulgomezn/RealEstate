@@ -24,10 +24,6 @@ namespace DataAccess.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            /*if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Data Source=192.168.3.9;Initial Catalog=TeamCity;User ID=UsuAppDesa;password=UzuDe@pp2020");
-            }*/
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
